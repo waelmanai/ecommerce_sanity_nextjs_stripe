@@ -64,6 +64,11 @@ width: 100%;
     -webkit-text-stroke: 1px #f02d34;
     margin-left: 6px;
 }
+header{
+  max-width: 1400px;
+  margin: AUTO;
+  width: 100%;
+}
 .logo{
   color: gray;
   font-size: 18px;
@@ -98,7 +103,7 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 45px 85px;
   margin-top: 20px;
   width: 100%;
 }
@@ -161,7 +166,7 @@ width: 100%;
 .hero-banner-container h1{
   color: white;
   font-size: 10em;
-  margin-left: -20px;
+  margin-left: -12px;
   text-transform: uppercase;
 }
 .hero-banner-image{
@@ -175,7 +180,7 @@ width: 100%;
 
 .desc{
 position: absolute;
-right: 10%;
+right: 2%;
 bottom: 5%;
 width: 300px;
 line-height: 1.3;
