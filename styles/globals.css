@@ -390,10 +390,14 @@ padding: 20px 10px;
 .cart-bottom{
   position: absolute;
   bottom: 12px;
-  right: 5px;
-width: 100%;
-padding: 30px 65px;
+  right: 0px;
+  width: 100%;
+  padding: 15px 65px;
+  background: white;
+}
 
+.cart-heading .btn{
+  margin-top: 25px;
 }
 
 .btn-container{
