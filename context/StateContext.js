@@ -44,6 +44,12 @@ export const StateContext = ({ children }) => {
     setTotalPrice((prevTotalPrice) => prevTotalPrice -foundProduct.price * foundProduct.quantity);
     setTotalQuantities(prevTotalQuantities => prevTotalQuantities - foundProduct.quantity);
     setCartItems(newCartItems);
+
+    toast.success(`${product.name} has removed from the cart.`, {
+      iconTheme: {
+        primary: '#ff4b4b',
+      },
+    });
   }
 
   const toggleCartItemQuantity = (id, value) => {
